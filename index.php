@@ -12,4 +12,6 @@ echo "tried changing the permissions again";
 
 echo "try using python";
 
+echo "try using pre-push instead";
+
 ?>
