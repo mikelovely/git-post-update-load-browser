@@ -2,5 +2,5 @@
 This is the code in the pre-push hooks file for git. You will need to point this at intersect.hmtl
 
 #!/bin/bash
-python -mwebbrowser http://example.com &
+python -mwebbrowser 'file:///Users/mike-lovely/development/git-post-update-load-browser/intersect.html' &
 exit 0
