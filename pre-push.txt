@@ -1,0 +1,6 @@
+
+This is the code in the pre-push hooks file for git. You will need to point this at intersect.hmtl
+
+#!/bin/bash
+python -mwebbrowser http://example.com &
+exit 0
