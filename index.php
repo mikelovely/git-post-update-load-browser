@@ -16,4 +16,6 @@ echo "try using pre-push instead";
 
 echo "first real test of the intersect";
 
+echo "second real test of the intersect";
+
 ?>
