@@ -8,4 +8,6 @@ echo "hello world example";
 
 echo "another attempt";
 
+echo "tried changing the permissions again";
+
 ?>
