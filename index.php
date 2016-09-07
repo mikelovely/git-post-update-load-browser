@@ -14,4 +14,6 @@ echo "try using python";
 
 echo "try using pre-push instead";
 
+echo "first real test of the intersect";
+
 ?>
