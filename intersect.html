@@ -6,9 +6,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript">
             function changeBanner(){ 
-                var keyword = "war";
+                var keyword = ["war", "death", "flowers", "fight", "mountains"];
                 $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
-                    tags: keyword,
+                    tags: keyword[Math.floor(Math.random() * keyword.length)],
                     tagmode: "any",
                     format: "json"
                 },
@@ -22,7 +22,7 @@
                 var timer = setInterval(changeBanner, 100);
                 setTimeout(function() {
                     clearInterval(timer)
-                }, 15000);
+                }, 10000);
             };
         </script>
     </head>
